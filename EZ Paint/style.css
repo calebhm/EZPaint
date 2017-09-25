@@ -1,0 +1,94 @@
+*::selection{
+    background: transparent;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#cont {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000000;
+    width: 100vw;
+    height: 5vh;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+#color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+#size {
+    display: block;
+    margin: 0.2em auto 0 auto;
+}
+
+#clear {
+    position: absolute;
+    top: 0;
+    right: 5vw;
+    width: 10vw;
+    height: 6vh;
+    font-size: 1.4em;
+    color: #ffffff;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    z-index: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#popup {
+    position: relative;
+    bottom: -50%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    background: rgb(51,100,180);
+    background: rgba(51,100,180,0.8);
+    width: 40%;
+    min-width: 40%;
+    min-height: 20%;
+    font-size: 1.25em;
+    color: #ffffff;
+    text-align: left;
+    padding: 5% 10% 10% 10%;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+span {
+    display: inline-block;
+    position: absolute;
+    text-align: right;
+    right: 0.7em;
+    bottom: 0.7em;
+    font-weight: 400;
+}
+
+p:first-child {
+    position: absolute;
+    right: 0.4em;
+    top: -0.7em;
+    font-size: 0.8em;
+    font-weight: 400;
+}
